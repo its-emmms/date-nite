@@ -1,0 +1,60 @@
+<style>
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Baloo Paaji 2",sans-serif;
+}
+p {
+  font-size: 20px;
+  font-family: "Lato", serif;
+}
+
+.input1{background:#470A35;
+border-color:#640B4A; font-family: "Lato", serif; font-size: 18px; color: #FFFFFF;}
+.input2{background:#581845;
+border-color:#6F1E57; font-family: "Lato", serif; font-size: 18px; color: #EDEDED;}
+.input3{background:#7A2C63;
+border-color:#99377C; font-family: "Lato", serif; font-size: 18px; color: #E4E4E4;}
+.input4{background:#900C3F;
+border-color:#A9104B; font-family: "Lato", serif; font-size: 18px; color: #D4D4D4;}
+.input5{background:#C70039;
+border-color:#DD003F; font-family: "Lato", serif; font-size: 18px; color: #C4C4C4;}
+.input6{background:#EA0345;
+border-color:#FF1658; font-family: "Lato", serif; font-size: 18px; color: #999999;}
+.input7{background:#ECB602;
+border-color:#FFC80F; font-family: "Lato", serif; font-size: 18px; color: #A4A4A4;}
+.input8{background:#FFD23F;
+border-color:#FFDC68; font-family: "Lato", serif; font-size: 18px; color: #6D6D6D;}
+.input9{background:#FCD581;
+border-color:#FFDE98; font-family: "Lato", serif; font-size: 18px; color: #5A5A5A;}
+.input10{background:#FFEDB3; font-family: "Lato", serif; font-size: 18px; color: #4A4A4A;}
+input{height:25px;
+margin: auto;
+width:500px;}
+div{display:flex;}
+
+.item1{background:#470A35; color: #FFFFFF;}
+.item2{background:#581845; color: #EDEDED;}
+.item3{background:#7A2C63; color: #E4E4E4;}
+.item4{background:#900C3F; color: #D4D4D4;}
+.item5{background:#C70039; color: #C4C4C4;}
+.item6{background:#EA0345; color: #B4B4B4;}
+.item7{background:#ECB602; color: #999999;}
+.item8{background:#FFD23F; color: #6D6D6D;}
+.item9{background:#FCD581; color: #5A5A5A;}
+.item10{background:#FFEDB3; color: #4A4A4A;}
+.container {
+  font-size: 40px;
+  min-height: 100px;
+  width: 100%;
+  background: LightGray;
+  display: grid;
+  /* Only change code below this line */
+
+
+
+  /* Only change code above this line */
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+</style>
